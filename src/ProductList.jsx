@@ -10,7 +10,7 @@ function ProductList({ onHomeClick }) {
     const [addedToCart, setAddedToCart] = useState({});
     const cart = useSelector(state => state.cart.items);
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     const plantsArray = [
         {
